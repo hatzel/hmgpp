@@ -1,6 +1,6 @@
-CFLAGS = -std=c++11 -pedantic -Wall -Wextra
+CFLAGS = -std=c++11 -pedantic -Wall -Wextra -ggdb
 LFLAGS = $(CFLAGS)
-LIBS = -lncurses++w -lncurses
+LIBS = -lncurses++w -lncurses -lmenuw
 
 OBJS = start.o
 
